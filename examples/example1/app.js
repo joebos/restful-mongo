@@ -8,7 +8,6 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , restfulMongo=require('../../index.js')
   , config=require('./config.js');
 
 var app = express();
@@ -36,6 +35,12 @@ app.get('/users', user.list);
 /***
   Configure app the handle REST HTTP methods
 ***/
+
+var RestfulMongo=require('restful-mongo')
+restfulMongo = new RestfulMongo({
+                        url: 'mongodb://localhost:27017/'
+}) 
+
 restfulMongo.configure(app, config );
 
 http.createServer(app).listen(app.get('port'), function(){
