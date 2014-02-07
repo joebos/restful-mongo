@@ -38,7 +38,7 @@ app.get('/users', user.list);
 
 var RestfulMongo=require('restful-mongo')
 restfulMongo = new RestfulMongo({
-                        url: 'mongodb://localhost:27017/'
+                        url: 'mongodb://localhost:27017/restdb'
 }) 
 
 restfulMongo.configure(app, config );
