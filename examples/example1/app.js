@@ -65,7 +65,7 @@ function setTwitterSearchGet (app) {
         var leadcat = req.query.leadcat
 
 
-        var execStr = 'phantomjs /home/white/charlesbank/leads/get-tweeters.js "' +  userid + '" 1 "' + keyword + '" 1 1 1 1';
+        var execStr = 'phantomjs /home/ec2-user/social/charlesbank/leads/get-tweeters.js "' +  userid + '" 1 "' + keyword + '" 1 1 1 1';
 
         console.log(execStr);
 
