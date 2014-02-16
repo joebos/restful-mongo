@@ -7,5 +7,6 @@ module.exports = {
 	},
 	"flavor": "nounderscore",
 	"debug": true,
-    "get_filter": {'followed': {$ne: 'True'}}
+    "get_filter": {}
+    //{$or: [{'followed': {$ne: 'True'}}, {'replied': {$ne: 'True'}}]}
 }
