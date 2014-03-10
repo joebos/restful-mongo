@@ -37,9 +37,7 @@ app.get('/users', user.list);
 ***/
 
 var RestfulMongo=require('restful-mongo')
-restfulMongo = new RestfulMongo({
-                        url: 'mongodb://localhost:27017/restdb'
-}) 
+restfulMongo = new RestfulMongo();
 
 restfulMongo.configure(app, config );
 
@@ -99,6 +97,58 @@ function setTwitterSearchGet (app) {
 }
 
 setTwitterSearchGet(app);
+
+
+function setWaneloSearchGet (app) {
+    var self=this
+    /**
+     * Query
+     */
+    console.log('WaneloSearch', 'Configuring GET')
+
+    app.get('/api/wanelosearch/?', function(req, res) {
+
+        var keyword = req.query.keyword
+
+        var userid = req.query.username
+        var leadcat = req.query.leadcat
+
+
+        var execStr = 'phantomjs /home/ec2-user/social/charlesbank/leads/wanelo/products_direct_savers.js "' +  userid + '" 1 "' + keyword + '" 1 1 1 1';
+
+        console.log(execStr);
+
+        child = exec(execStr, function callback(error, stdout, stderr) {
+
+            console.log('stdout: ' + stdout);
+            console.log('stderr: ' + stderr);
+            if (error !== null) {
+                console.log('exec error: ' + error);
+                res.json(500, {"result": "failure", "error": error } );
+            }
+
+            res.json(200, {"result": "success"});
+            /*var output = stdout.trim();
+
+             // In my casperJS script I echo "TIME OUT" if my casper js tests timed out due to connectivity issues, bad performance, etc.
+
+             if (output.indexOf("TIME OUT") === -1) {
+
+             // NO TIME OUT so casperjs returned results and lets process them!
+
+             var results = JSON.parse(output);
+
+             // Results now contains an expected JSON KVO, array, etc.
+
+             // Process results using normal nodejs packages/libraries
+             }*/
+        });
+
+    });
+}
+
+setWaneloSearchGet(app);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
