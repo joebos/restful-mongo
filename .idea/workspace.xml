@@ -35,7 +35,7 @@
       <file leaf-file-name="restful-mongo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/restful-mongo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="390" column="58" selection-start="12689" selection-end="12689" vertical-scroll-proportion="0.45302713" vertical-offset="5528" max-vertical-offset="7590">
+            <state line="390" column="58" selection-start="12689" selection-end="12689" vertical-scroll-proportion="-0.10458168" vertical-offset="5850" max-vertical-offset="7590">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Dao.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Dao.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="61" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="4065">
+            <state line="47" column="61" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="4065">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="base.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="382" column="0" selection-start="11193" selection-end="11193" vertical-scroll-proportion="0.0" vertical-offset="5528" max-vertical-offset="6630">
+            <state line="382" column="0" selection-start="11193" selection-end="11193" vertical-scroll-proportion="0.0" vertical-offset="5730" max-vertical-offset="6630">
               <folding />
             </state>
           </provider>
@@ -109,8 +109,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-2" />
     <option name="y" value="25" />
-    <option name="width" value="1444" />
-    <option name="height" value="854" />
+    <option name="width" value="1924" />
+    <option name="height" value="1132" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -201,14 +201,6 @@
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Node.js.mongo_nodejs">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -219,15 +211,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -276,18 +276,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="25" width="1444" height="854" extended-state="6" />
-    <editor active="false" />
+    <frame x="-2" y="25" width="1924" height="1132" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29027778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29010418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39442232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32802126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32783705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -317,6 +317,55 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/examples/example1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="34" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2415">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/restful-mongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="58" selection-start="12689" selection-end="12689" vertical-scroll-proportion="0.0" vertical-offset="5850" max-vertical-offset="7590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="61" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="4065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/collection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="498" column="0" selection-start="19497" selection-end="19497" vertical-scroll-proportion="0.0" vertical-offset="7273" max-vertical-offset="26040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="382" column="0" selection-start="11193" selection-end="11193" vertical-scroll-proportion="0.0" vertical-offset="5730" max-vertical-offset="6630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongodb/lib/mongodb/connection/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="470" column="0" selection-start="19245" selection-end="19245" vertical-scroll-proportion="0.0" vertical-offset="6853" max-vertical-offset="13815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/ConnectionPool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="29" selection-start="1412" selection-end="1412" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/example1/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="34" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="2415">
@@ -543,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/restful-mongo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="58" selection-start="12689" selection-end="12689" vertical-scroll-proportion="0.45302713" vertical-offset="5528" max-vertical-offset="7590">
+        <state line="390" column="58" selection-start="12689" selection-end="12689" vertical-scroll-proportion="-0.10458168" vertical-offset="5850" max-vertical-offset="7590">
           <folding />
         </state>
       </provider>
