@@ -8,7 +8,7 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , config=require('./config.js');
+  , config=require('../../../config.js');
 
 var app = express();
 
