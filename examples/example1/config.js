@@ -3,7 +3,7 @@ module.exports = {
 		username: '',
 		password:'',
 		host: '192.168.253.139',
-		port: 27017
+		port: 27000
 	},
 	"flavor": "nounderscore",
 	"debug": true,
