@@ -9,7 +9,8 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , config=require('../../../config.js')
-  ,bodyParser = require('body-parser');
+  //,bodyParser = require('body-parser')
+    ;
 
 var app = express();
 
