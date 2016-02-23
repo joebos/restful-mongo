@@ -9,6 +9,7 @@ var express = require('express')
   , http = require('http')
   , path = require('path')
   , config=require('../../../config.js');
+  ,bodyParser = require('body-parser');
 
 var app = express();
 
@@ -23,8 +24,12 @@ app.configure(function(){
   app.use(app.router);
   app.use(express.static(path.join(__dirname, 'public')));
 
-  app.use(express.json({limit: '5mb'}));
-  app.use(express.urlencoded({limit: '5mb'}));
+  //app.use(express.json({limit: '5mb'}));
+  //app.use(express.urlencoded({limit: '5mb'}));
+
+    app.use(bodyParser.json({limit: '5mb'}));
+    app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
+
 });
 
 app.configure('development', function(){
