@@ -27,8 +27,8 @@ app.configure(function(){
   //app.use(express.json({limit: '5mb'}));
   //app.use(express.urlencoded({limit: '5mb'}));
 
-    app.use(bodyParser.json({limit: '5mb'}));
-    app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
+    //app.use(bodyParser.json({limit: '5mb'}));
+    //app.use(bodyParser.urlencoded({limit: '5mb', extended: true}));
 
 });
 
